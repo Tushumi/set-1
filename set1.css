@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5rem 0;
+  background-color: rgb(58, 38, 38);
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+
+main .motor-img-section .motor-based-color{
+  border-radius: 10px;
+  background-color: white;
+  height: 18.4rem;
+}
+
+main .motor-img-section .motor-img{
+  border-radius: 10px;
+  
+}
+
+
+main .color-generator-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .color-generator-section .color-buttons-container{
+  background-color:  white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.color-generator-section .color-buttons-container .buttons.d-flex{
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.color-generator-section .color-buttons-container .buttons .color-btn{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.color-generator-section button{
+  background-color: black;
+  color: rgb(5, 199, 5);
+  border: 1px solid rgb(5, 199, 5);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+  width: fit-content;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgb(5, 199, 5);
+  cursor: pointer;
+}
